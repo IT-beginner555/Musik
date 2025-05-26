@@ -6,6 +6,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+  --menu-color: rgb(98, 67, 253);
+  --buttom-buy: rgba(83, 15, 218, 0.77)
+}
+
+
 .name-artist{
     font-family: "Comic Relief", system-ui;
 }
@@ -87,6 +93,7 @@
 
 .menu-link {
     text-decoration: none;
+    color: var(--menu-color);
 }
 
 .electronic-musik {
@@ -208,9 +215,9 @@
 }
 
 .buttom {
-    background-color: rgba(83, 15, 218, 0.77);
     color: rgb(255, 213, 5);
     padding: 10px 15px;
+    background-color: var(--buttom-buy)
     
 }
 
@@ -434,6 +441,12 @@ table th,
 table td {
   padding: 10px;
   border: 1px solid #2a2a2a;
+}
+
+.video{
+  margin:0 auto;
+  width: 640px;
+  margin-top: 10px;
 }
   
   
