@@ -8,7 +8,7 @@
 
 :root {
   --menu-color: rgb(98, 67, 253);
-  --buttom-buy: rgba(83, 15, 218, 0.77)
+  --buttom-buy: rgba(83, 15, 218, 0.77);
 }
 
 
@@ -228,6 +228,7 @@
 
 .image-home{
     border-radius: 10px;
+    box-shadow: 2px 2px 4px 4px gray;
 }
 
 .video{
@@ -448,7 +449,34 @@ table td {
   width: 640px;
   margin-top: 10px;
 }
+
+.paragraf{
+  text-indent: 10px;
+}
+
+.title{
+  letter-spacing: 3px;
+}
+
+.electronic-title{
+  text-shadow: 2px 1px 5px black;
+}
+
+.image-shadow{
+  box-shadow: 2px 2px 10px 2px gray;
+}
   
+.button-sign-in{
+  padding: 5px;
+  background-color: aliceblue;
+  border-color: rgb(254, 172, 64);
+}
+
+.button-send{
+  padding: 5px;
+  background-color: rgb(254, 241, 225);
+  border-color: rgb(253, 255, 127);
+}
   
   
   
