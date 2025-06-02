@@ -175,6 +175,7 @@
 .list-item {
     width: 300px;
     border: 1px solid blue;
+    border-radius: 20px;
     background-color: rgb(52, 255, 255);
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 50px;
