@@ -42,7 +42,7 @@
   display: flex;
   gap: 30px;
   list-style: none;
-  margin: 10 auto;
+  margin: 20px 100px 20px;
 }
 
 .contacts-link {
@@ -179,20 +179,28 @@
 
 .list-item {
   width: 300px;
-  border: 1px solid blue;
+  border: 1px solid rgb(155, 155, 255);
   border-radius: 20px;
   background-color: rgb(52, 255, 255);
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 50px;
 }
 
+.list-item:hover{
+  background-color: rgb(152, 255, 255);
+}
+
 .list-item-2 {
   width: 300px;
-  border: 1px solid rgb(255, 0, 0);
+  border: 1px solid rgb(255, 109, 109);
   border-radius: 20px;
   background-color: rgb(255, 130, 96);
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 50px;
+}
+
+.list-item-2:hover{
+  background-color: rgb(255, 148, 118);
 }
 
 .artists-list {
@@ -241,6 +249,7 @@
 .image-home {
   border-radius: 10px;
   box-shadow: 2px 2px 4px 4px gray;
+  opacity: 95%;
 }
 
 .div-video {
@@ -258,6 +267,15 @@
   height: auto;
   /* border-radius: inherit; */
   display: block;
+}
+
+.video-youtube{
+  width: 600px;
+  height: 300px;
+  border-radius: 15px;
+  display: inline-block;
+  margin-left: 50px;
+  vertical-align: middle;
 }
 
 .style-musiks {
@@ -382,6 +400,7 @@
 
 .slide-in-elliptic-top-fwd {
   animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
 }
 
 @keyframes slide-in-elliptic-top-fwd {
@@ -557,4 +576,56 @@ table td {
   max-height: 400px;
   min-width: 80px;
   min-height: 40px;
+}
+
+.avatar{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: url(https://yt3.googleusercontent.com/ytc/AIdro_kbkW1oy7eW7vdPrFSvgHaWLr0uW_W2IejMS9BGcB-pdbw=s160-c-k-c0x00ffffff-no-rj);
+  background-size: cover;
+  display: inline-block;
+  vertical-align: middle;
+  box-shadow: 2px 2px 10px 2px darkslateblue;
+}
+
+.avatar:hover{
+  box-shadow: 3px 3px 15px 3px;
+}
+
+.rate{
+  text-align: center;
+}
+
+.stars{
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+.stars input {
+  display: none;
+}
+
+.stars label:hover,
+.stars label:hover ~ label {
+  color: gold;
+}
+
+.stars input:checked ~ label {
+  color: gold;
+}
+
+.button-people{
+  background-color: rgb(196, 255, 240);
+  color: darkblue;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px 1px darkmagenta;
+}
+
+.button-people:hover{
+  background-color: rgb(115, 255, 220);
+  color: rgb(174, 88, 88);
+  box-shadow: 2px 2px 15px 2px;
 }
