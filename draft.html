@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="draft.css">
 </head>
 <body>
-    <table>
+    <!-- <table>
   <thead>
     <tr>
       <th>Nummer</th>
@@ -88,7 +88,52 @@
 
 <div class="box-1"></div>
 <div class="box-2"></div>
-<div class="box-3"></div>
+<div class="box-3"></div> -->
+
+
+<div class="flex-container">
+        <div class="flex-item item-shrink-1">Без стиснення (0)</div>
+        <div class="flex-item item-shrink-1">Стиснення 1</div>
+        <div class="flex-item item-shrink-2">Стиснення 2</div>
+    </div>
+
+    <p>
+        У цьому прикладі:
+        <ul>
+            <li>Контейнер має фіксовану ширину <code>300px</code>.</li>
+            <li>Кожен внутрішній елемент (<code>.flex-item</code>) початково прагне зайняти <code>120px</code>, що сумарно (<code>3 * 120px = 360px</code>) перевищує ширину контейнера.</li>
+            <li>Елемент з класом <code>.item-no-shrink</code> має <code>flex-shrink: 0</code>, що означає, що він не буде стискатися, навіть якщо не вистачає місця.</li>
+            <li>Елемент з класом <code>.item-shrink-1</code> має <code>flex-shrink: 1</code> (це значення за замовчуванням), що означає, що він буде стискатися пропорційно до інших елементів зі значенням 1.</li>
+            <li>Елемент з класом <code>.item-shrink-2</code> має <code>flex-shrink: 2</code>, що означає, що він буде стискатися вдвічі інтенсивніше, ніж елементи з <code>flex-shrink: 1</code>.</li>
+        </ul>
+        Ви можете побачити, як останній елемент стає значно меншим, тоді як перший зберігає свій початковий розмір наскільки це можливо.
+    </p>
+
+    <div class="flex-container">
+        <div class="flex-item item-first">Елемент 1 (HTML-порядок: 1)</div>
+        <div class="flex-item item-second">Елемент 2 (HTML-порядок: 2)</div>
+        <div class="flex-item item-third">Елемент 3 (HTML-порядок: 3)</div>
+    </div>
+
+    <p>
+        Зверніть увагу, що в HTML-коді "Елемент 1" йде першим, "Елемент 2" - другим, а "Елемент 3" - третім.
+        Однак, завдяки властивості <code>order</code> в CSS:
+        <ul>
+            <li>**"Елемент 3"** (`.item-third`) має <code>order: 1</code> і відображається першим.</li>
+            <li>**"Елемент 1"** (`.item-first`) має <code>order: 2</code> і відображається другим.</li>
+            <li>**"Елемент 2"** (`.item-second`) має <code>order: 3</code> і відображається третім.</li>
+        </ul>
+        Це показує, як <code>order</code> дозволяє візуально змінювати розташування елементів, не змінюючи їхню позицію в структурі HTML.
+    </p>
+
+    <div class="box">
+  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia itaque quia
+  nobis fugit amet adipisci, corrupti animi, iusto eius a sed totam voluptas
+  porro. Dolorem aliquid rerum magnam eligendi aspernatur.
+</div>
+
+
+
 
 
 

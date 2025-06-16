@@ -1,4 +1,4 @@
-body {
+/* body {
   font-family: sans-serif;
   font-size: 20px;
 }
@@ -74,6 +74,113 @@ img {
   height: 120px;
   border-radius: 50%;
   background-color: #4caf50;
+} */
+
+
+.flex-container {
+
+  display: flex;
+
+  width: 600px;
+
+  border: 2px solid #333;
+
+  padding: 10px;
+
+  box-sizing: border-box;
+
 }
 
 
+
+.flex-item {
+
+  background-color: lightblue;
+
+  border: 1px solid blue;
+
+  padding: 5px;
+
+  margin: 5px;
+
+  text-align: center;
+
+  width: 175px;
+
+}
+
+
+
+.item-no-shrink {
+
+  flex-shrink: 0;
+
+  background-color: lightcoral;
+
+}
+
+
+
+.item-shrink-1 {
+
+  flex-shrink: 1;
+
+}
+
+
+
+
+
+.item-shrink-2 {
+
+  flex-shrink: 2;
+
+  background-color: lightgreen;
+
+}
+
+.flex-container {
+  display: flex;
+  border: 2px solid #3498db;
+  padding: 10px;
+  gap: 10px;
+}
+
+.flex-item {
+  background-color: #ecf0f1;
+  border: 1px solid #bdc3c7;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.2em;
+  color: #2c3e50;
+}
+
+.item-first {
+  order: 190;
+  background-color: #e74c3c;
+  color: white;
+}
+
+.item-second {
+  order: -2;
+  background-color: #f1c40f;
+  color: #2c3e50;
+}
+
+.item-third {
+  order: 40;
+  background-color: #2ecc71;
+  color: white;
+}
+
+.box::before {
+  content: 'Це текст в ::before';
+  font-size: 40px;
+  color: orange;
+}
+
+.box::after {
+  content: 'Це текст в ::after';
+  font-size: 30px;
+  color: teal;
+}
