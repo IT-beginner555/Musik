@@ -521,7 +521,6 @@ table td {
 .electronic-title {
   text-shadow: 2px 1px 5px black;
 }
-
 .image-shadow {
   box-shadow: 2px 2px 10px 2px gray;
 }
@@ -635,3 +634,14 @@ table td {
   box-shadow: 2px 2px 15px 2px;
 }
 
+.svg{
+  width: 20px;
+  height: 20px;
+  fill: #6243fd;
+  filter: drop-shadow(2px 2px 8px black);
+}
+
+
+.svg:hover{
+  fill: #350cff;
+}
