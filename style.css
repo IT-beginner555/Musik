@@ -644,4 +644,5 @@ table td {
 
 .svg:hover{
   fill: #350cff;
+  filter: drop-shadow(2px 2px 10px black);
 }
