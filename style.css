@@ -233,6 +233,7 @@
 
 .produkt-img {
   width: 100%;
+  height: 142.4px;
 }
 
 .buttom {
@@ -599,6 +600,7 @@ table td {
 
 .rate{
   text-align: center;
+  margin-bottom: 0;
 }
 
 .stars{
@@ -645,4 +647,40 @@ table td {
 .svg:hover{
   fill: #350cff;
   filter: drop-shadow(2px 2px 10px black);
+}
+
+.img-artist {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.thumb {
+  position: relative;
+  margin: 10px;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    width: 300px;
+}
+
+.thumb > .label {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  padding: 8px 16px;
+  border-top-left-radius: 4px;
+
+  font-family: sans-serif;
+  font-size: 24px;
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.artist-list{
+  display: flex;
+  margin: 30px;
 }
