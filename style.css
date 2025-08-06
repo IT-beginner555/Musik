@@ -730,17 +730,18 @@ table td {
 
 .box:nth-child(1) {
   top: 20px;
-  left: 530px;
-  background-image: url(https://tse4.mm.bing.net/th/id/OIP.pX1hi8iqksyQHd5RNC_XLQHaFj?rs=1&pid=ImgDetMain&o=7&rm=3);
+  left: 252px;
+  background-image: url(https://th.bing.com/th/id/OIP.Iiq8KSmo0v64vnoucoRt3AHaFA?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   z-index: 2;
+  transform: rotate(10deg);
 }
 
 .box:nth-child(2) {
-  top: 30px;
-  left: 630px;
+  top: 145px;
+  left: 264px;
   background-image: url(https://34mag.net/piarshak/content/editor_images/2018content/september/15sovetov_koncert/125.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -750,7 +751,7 @@ table td {
 
 .box:nth-child(3) {
   top: 140px;
-  left: 520px;
+  left: 396px;
   background-image: url(https://tse3.mm.bing.net/th/id/OIP.1pGP3gu7HjPiwuixbZvfvQHaE7?rs=1&pid=ImgDetMain&o=7&rm=3);
   background-repeat: no-repeat;
   background-position: center;
@@ -759,10 +760,96 @@ table td {
 }
 
 .box:nth-child(4) {
-  top: 120px;
-  left: 620px;
+  top: 14px;
+  left: 389px;
   background-image: url(https://www.vikingentertainment.nl/uploads/product/groot/ppm-band-boeken-1656484906.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  transform: rotate(-10deg);
+}
+
+.box:nth-child(5) {
+  top: 17px;
+  left: 534px;
+
+  background-image: url(https://th.bing.com/th/id/OIP.reLvaoTVNchi0PBpV8em9QHaE7?&dpr=1,3o=7&rm=3&rs=1&pid=ImgDetMain&o=7&rm=3);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.box:nth-child(6) {
+  top: 7px;
+  left: 677px;
+  background-image: url(https://thecity.m24.ru/b/d/SYketSivfok0JfbObLLBFlFNHBpuaXnwmJxNbycGshjv55OD3HWFWh2pL8EsPwl5DpSHzm95vRzNbdeHauL5EWcJ5w9e=fbo1FP7PQ6y2vvPh7s7N9Q.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+  transform: rotate(10deg);
+}
+
+.box:nth-child(7) {
+  top: 130px;
+  left: 544px;
+  background-image: url(https://media.istockphoto.com/id/874747066/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D1%84%D0%B5%D1%81%D1%82%D0%B8%D0%B2%D0%B0%D0%BB%D1%8C-%D1%82%D0%BE%D0%BB%D0%BF%D0%B0.jpg?s=612x612&w=0&k=20&c=lAPMM9xHedHTai9uPoo40wcot7hPDAtOcUDnA1pDzso=);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 2;
+  transform: rotate(10deg);
+}
+
+.box:nth-child(8) {
+  top: 141px;
+  left: 690px;
+  background-image: url(https://media.istockphoto.com/id/1913125761/ru/%D1%84%D0%BE%D1%82%D0%BE/%D1%81%D0%B8%D0%BB%D1%83%D1%8D%D1%82%D1%8B-%D1%82%D0%B0%D0%BD%D1%86%D1%83%D1%8E%D1%89%D0%B8%D1%85-%D0%B8-%D0%BF%D0%BE%D0%B4%D0%BD%D0%B8%D0%BC%D0%B0%D1%8E%D1%89%D0%B8%D1%85-%D1%80%D1%83%D0%BA%D0%B8-%D0%BB%D1%8E%D0%B4%D0%B5%D0%B9-%D0%BD%D0%B0-%D0%BB%D0%B5%D1%82%D0%BD%D0%B5%D0%BC-%D1%84%D0%B5%D1%81%D1%82%D0%B8%D0%B2%D0%B0%D0%BB%D0%B5-%D0%BF%D0%BE%D0%B4-%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%BC-%D0%BD%D0%B5%D0%B1%D0%BE%D0%BC.jpg?s=612x612&w=0&k=20&c=Gflf9WxTya8MU0aQ0Qt4IEt4_yUYpjOjzKbvjgz0QVs=);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+
+.box:nth-child(9) {
+  top: 30px;
+  left: 821px;
+  background-image: url(https://th.bing.com/th/id/OIP.reLvaoTVNchi0PBpV8em9QHaE7?&dpr=1,3o=7&rm=3&rs=1&pid=ImgDetMain&o=7&rm=3);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 2;
+  transform: rotate(-10deg);
+}
+
+.box:nth-child(10) {
+  top: 20px;
+  left: 968px;
+  background-image: url(https://thecity.m24.ru/b/d/SYketSivfok0JfbObLLBFlFNHBpuaXnwmJxNbycGshjv55OD3HWFWh2pL8EsPwl5DpSHzm95vRzNbdeHauL5EWcJ5w9e=fbo1FP7PQ6y2vvPh7s7N9Q.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+
+.box:nth-child(11) {
+  top: 145px;
+  left: 837px;
+  background-image: url(https://media.istockphoto.com/id/874747066/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D1%84%D0%B5%D1%81%D1%82%D0%B8%D0%B2%D0%B0%D0%BB%D1%8C-%D1%82%D0%BE%D0%BB%D0%BF%D0%B0.jpg?s=612x612&w=0&k=20&c=lAPMM9xHedHTai9uPoo40wcot7hPDAtOcUDnA1pDzso=);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.box:nth-child(12) {
+  top: 139px;
+  left: 979px;
+  background-image: url(https://media.istockphoto.com/id/1913125761/ru/%D1%84%D0%BE%D1%82%D0%BE/%D1%81%D0%B8%D0%BB%D1%83%D1%8D%D1%82%D1%8B-%D1%82%D0%B0%D0%BD%D1%86%D1%83%D1%8E%D1%89%D0%B8%D1%85-%D0%B8-%D0%BF%D0%BE%D0%B4%D0%BD%D0%B8%D0%BC%D0%B0%D1%8E%D1%89%D0%B8%D1%85-%D1%80%D1%83%D0%BA%D0%B8-%D0%BB%D1%8E%D0%B4%D0%B5%D0%B9-%D0%BD%D0%B0-%D0%BB%D0%B5%D1%82%D0%BD%D0%B5%D0%BC-%D1%84%D0%B5%D1%81%D1%82%D0%B8%D0%B2%D0%B0%D0%BB%D0%B5-%D0%BF%D0%BE%D0%B4-%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%BC-%D0%BD%D0%B5%D0%B1%D0%BE%D0%BC.jpg?s=612x612&w=0&k=20&c=Gflf9WxTya8MU0aQ0Qt4IEt4_yUYpjOjzKbvjgz0QVs=);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+  transform: rotate(10deg);
 }
