@@ -20,12 +20,14 @@
   font-family: "Caveat", cursive;
 }
 
-.name-of-produkt {
+.name-of-produkt{
   font-family: "Comic Relief", system-ui;
 }
 
 .desckription {
   font-family: "Merriweather", serif;
+  margin-top: 50px;
+  margin-bottom: -0px;
 }
 
 .buttom {
@@ -225,6 +227,9 @@
 }
 
 .produkt-item {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
   border: 1px solid black;
   width: 200px;
   padding: 10px;
@@ -240,7 +245,8 @@
 .buttom {
   color: rgb(255, 213, 5);
   padding: 10px 15px;
-  background-color: var(--buttom-buy)
+  background-color: var(--buttom-buy);
+  margin-top: -20px;
 }
 
 .contacts-logo {
@@ -913,4 +919,18 @@ table td {
 .select-center{
   display: block;
   margin: -30px auto -15px auto;
+}
+
+.summary{
+  position: absolute;
+  bottom: 190px;
+}
+
+details[open] summary::marker{
+  color: red;
+}
+
+.size-color-produkts{
+  margin-top: 50px;
+  margin-bottom: -25px;
 }
