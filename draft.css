@@ -204,3 +204,93 @@ img {
 .icon:hover {
   fill: red;
 }
+
+img {
+  animation-name: spin;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  width: 100px;
+  height: 100px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.scene {
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.box-rotate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  border-radius: 4px;
+  color: white;
+  font-size: 20px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+  /*   transition: transform 0.5s ease-in-out; */
+}
+
+.box-rotate.rotate-x:hover {
+  /*   transform: perspective(400px) rotateX(45deg); */
+  animation: rotateX 1500ms infinite alternate ease-in-out 1000ms;
+}
+
+.box-rotate.rotate-y:hover {
+  /*   transform: perspective(400px) rotateY(45deg); */
+  animation: rotateY 1500ms infinite alternate ease-in-out 1000ms;
+}
+
+.box-rotate.rotate-x {
+  background-color: tomato;
+}
+
+.box-rotate.rotate-y {
+  background-color: blue;
+}
+
+.scene + .scene {
+  margin-left: 50px;
+}
+
+.container {
+  display: flex;
+}
+
+@keyframes rotateX {
+  0% {
+    transform: perspective(400px) rotateX(0deg);
+  }
+
+  100% {
+    transform: perspective(100px) rotateX(60deg);
+  }
+}
+
+@keyframes rotateY {
+  0% {
+    transform: perspective(2000px) rotateY(100deg);
+  }
+
+  100% {
+    transform: perspective(400px) rotateY(60deg);
+  }
+}
