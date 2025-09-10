@@ -1083,7 +1083,53 @@ details[open] summary::marker {
     justify-content: center;
     padding-left: 0;
   }
-  body{
+
+  body {
     max-width: 430px;
+  }
+
+  .image-home {
+    width: 400px;
+  }
+
+  .electronic-musik {
+    width: 400px;
+  }
+
+  .popular-dj {
+    width: 400px;
+  }
+
+  .table {
+    width: 300px;
+    /* display: flex;
+    flex-wrap: wrap; */
+  }
+
+  .table-container {
+    width: 300px;
+    margin: 0 auto;
+  }
+  .div-video{
+    width: 100%;
+  }
+  .video-youtube{
+    width:300px;
+    height: 200px;
+  }
+  .avatar{
+    margin-top: 30px;
+    width: 90px;
+    height: 90px;
+  }
+  .artists-container{
+    width: 400px;
+    margin-top: 30px;
+    margin: 0 auto;
+  }
+  .artists-list{
+    flex-direction: column;
+    width: 300px;
+
   }
 }
