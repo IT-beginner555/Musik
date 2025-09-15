@@ -1110,26 +1110,75 @@ details[open] summary::marker {
     width: 300px;
     margin: 0 auto;
   }
-  .div-video{
+
+  .div-video {
     width: 100%;
   }
-  .video-youtube{
-    width:300px;
+
+  .video-youtube {
+    width: 300px;
     height: 200px;
   }
-  .avatar{
+
+  .avatar {
     margin-top: 30px;
     width: 90px;
     height: 90px;
   }
-  .artists-container{
+
+  .artists-container {
     width: 400px;
     margin-top: 30px;
     margin: 0 auto;
   }
-  .artists-list{
+
+  .artists-list {
     flex-direction: column;
     width: 300px;
-
   }
+
+  .media {
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 1px solid black;
+  }
+
+  .container {
+    width: 300px;
+  }
+
+  .image-ticket {
+    width: 400px;
+  }
+
+  .box:nth-child(1) {
+    left: -10px;
+    top: 34px;
+  }
+
+  .box:nth-child(2) {
+    left: 115px;
+    top: 46px;
+  }
+
+  .box:nth-child(3) {
+    left: 110px;
+    top: 166px;
+  }
+
+  .box:nth-child(4) {
+    left: -16px;
+    top: 159px;
+  }
+
+  .box:nth-child(5) {
+    left: 252px;
+    top: 60px;
+  }
+
+  .box:nth-child(6) {
+    top: 161px;
+    left: 249px;
+  }
+
 }
