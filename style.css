@@ -849,8 +849,8 @@ table td {
 }
 
 .box:nth-child(8) {
-  top: 141px;
-  left: 690px;
+  top: 126px;
+  left: 686px;
   background-image: url(https://media.istockphoto.com/id/1913125761/ru/%D1%84%D0%BE%D1%82%D0%BE/%D1%81%D0%B8%D0%BB%D1%83%D1%8D%D1%82%D1%8B-%D1%82%D0%B0%D0%BD%D1%86%D1%83%D1%8E%D1%89%D0%B8%D1%85-%D0%B8-%D0%BF%D0%BE%D0%B4%D0%BD%D0%B8%D0%BC%D0%B0%D1%8E%D1%89%D0%B8%D1%85-%D1%80%D1%83%D0%BA%D0%B8-%D0%BB%D1%8E%D0%B4%D0%B5%D0%B9-%D0%BD%D0%B0-%D0%BB%D0%B5%D1%82%D0%BD%D0%B5%D0%BC-%D1%84%D0%B5%D1%81%D1%82%D0%B8%D0%B2%D0%B0%D0%BB%D0%B5-%D0%BF%D0%BE%D0%B4-%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%BC-%D0%BD%D0%B5%D0%B1%D0%BE%D0%BC.jpg?s=612x612&w=0&k=20&c=Gflf9WxTya8MU0aQ0Qt4IEt4_yUYpjOjzKbvjgz0QVs=);
   background-repeat: no-repeat;
   background-position: center;
@@ -1028,7 +1028,7 @@ details[open] summary::marker {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 4px;
+  border-radius: 50px;
   color: white;
   font-size: 20px;
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
@@ -1089,7 +1089,7 @@ details[open] summary::marker {
   }
 
   .image-home {
-    width: 400px;
+    width: 300px;
   }
 
   .electronic-musik {
@@ -1097,7 +1097,7 @@ details[open] summary::marker {
   }
 
   .popular-dj {
-    width: 400px;
+    width: 300px;
   }
 
   .table {
@@ -1130,11 +1130,13 @@ details[open] summary::marker {
     width: 400px;
     margin-top: 30px;
     margin: 0 auto;
+    margin-left: -4px;
   }
 
   .artists-list {
     flex-direction: column;
     width: 300px;
+    padding-left: 0;
   }
 
   .media {
@@ -1181,4 +1183,120 @@ details[open] summary::marker {
     left: 249px;
   }
 
+  .box:nth-child(8) {
+    top: 302px;
+    left: -12px;
+  }
+
+  .box:nth-child(7) {
+    top: 302px;
+    left: 119px;
+  }
+
+  .box:nth-child(9) {
+    top: 285px;
+    left: 250px;
+  }
+
+  .box:nth-child(10) {
+    top: 438px;
+    left: -12px;
+  }
+
+  .box:nth-child(11) {
+    top: 432px;
+    left: 131px;
+  }
+
+  .box:nth-child(12) {
+    top: 418px;
+    left: 260px;
+  }
+
+  .section-margin {
+    margin-top: 800px;
+  }
+
+  .box-border {
+    margin-bottom: 100pxF;
+  }
+
+  .image-ticket{
+    width: 300px;
+  }
+  .produkt-list{
+    flex-direction: column;
+    margin-left: 42px;
+  }
+
+  .summary{
+    position: static;
+  }
+
+  .ul-hidden{
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .contakts-list{
+    flex-direction: column;
+    margin: 0 ;
+    align-items: center;
+    padding: 0;
+  }
+
+  .a-margin{
+    margin-top: 20px;
+    display: block;
+  }
+
+  .iframe-mobile{
+    width: 300px;
+  }
+
+  .tickets-people{
+    width: 300px;
+  }
+
+  .title{
+    width: 300px;
+  }
+
+  .paragraf{
+    width: 300px;
+  }
+
+  .marker-blue{
+    width: 300px;
+  }
+
+  .popular-musician{
+    width: 300px;
+    margin: 0;
+  }
+
+  .electronic-title{
+    width: 300px;
+  }
+
+  video{
+    width: 200px;
+  }
+
+  .table-mobile{
+    width: 300px;
+  }
+
+  .video-youtube{
+    margin: -20px;
+  }
+
+  .text-area{
+    width: 280px;
+  }
+
+  .chat-button{
+    right: 91px;
+    bottom: 187px;
+  }
 }
